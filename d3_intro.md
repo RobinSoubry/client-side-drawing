@@ -16,5 +16,4 @@
 * D3 selectors rely on DOM elements. Make sure that all the DOM elements are loaded before the script is executed.
   * __on-page-script:__ Add script at the bottom of the page
   * __linked file _(preferred)_:__ Wrap your script in an event listener
-    ``document.addEventListener("DOMContentLoaded", function(e) { 
-    )};``
+    ``document.addEventListener("DOMContentLoaded", function(e) { // Your D3 code });``
