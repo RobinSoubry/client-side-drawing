@@ -6,4 +6,9 @@ var canvas = d3.select("body") // We use the body as a selector, but virtually a
                 .attr("width",500)
                 .attr("height",500)
 
+var circle = canvas.append("circle")
+                    .attr("cx",250) // c = center | x = horizontal axis
+                    .attr("cy",250)
+                    .attr("r",50) // Give the circle a radius
+                    .attr("fill","green") // Fill color of the object is an attribute, not a style
 });
