@@ -10,3 +10,11 @@
 1. Add D3 library to your html document with the `<script>` tag.
   * CDN: `<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>`
   * Download the code and include it in your files
+
+
+### Common pitfalls
+* D3 selectors rely on DOM elements. Make sure that all the DOM elements are loaded before the script is executed.
+  * __on-page-script:__ Add script at the bottom of the page
+  * __linked file _(preferred)_:__ Wrap your script in an event listener
+    ``document.addEventListener("DOMContentLoaded", function(e) { 
+    )};``
