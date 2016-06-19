@@ -14,8 +14,7 @@
   * D3 visuals use SVG ( __S__ calable __ V__ector __I__ mages)
   * Just like a painter, you need a canvas to create your drawing on.
 
-
-        var canvas = d3.select('body')
+          var canvas = d3.select('body')
                         .append('svg')
                         .attr('width',1366)
                         .attr('height',768)
