@@ -11,9 +11,8 @@
   * CDN: `<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>`
   * Download the code and include it in your files
 2. Create an SVG canvas
-  * D3 visuals use SVG ( __S__calable __V__ector __I__mages)
+  * D3 visuals use SVG ( __S__ calable __ V__ector __I__ mages)
   * Just like a painter, you need a canvas to create your drawing on.
-
           var canvas = d3.select('body')
                         .append('svg')
                         .attr('width',1366)
