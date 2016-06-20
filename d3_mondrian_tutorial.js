@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function(e) { 
   console.log('test');
   // Step 1: Create a canvas to draw the svg on.
-  var canvas = d3.select('body') // We use the body as a selector, but virtually any div can be used.
+  var canvas = d3.select('#mondrian') // We use the body as a selector, but virtually any div can be used.
                   .append('svg')
                   .attr('width',700)
                   .attr('height',800);
